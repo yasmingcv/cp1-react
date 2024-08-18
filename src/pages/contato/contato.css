@@ -1,0 +1,88 @@
+#contato {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 96px;
+    height: 887px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    font-size: 60px;
+    line-height: 74px;
+    font-weight: 700;
+    width: 587px;
+    border-right: 2px solid rgba(185, 183, 183, 1);
+    height: 522px;
+}
+
+.ul-contato {
+    display: flex;
+    gap: 40.52px;
+}
+
+.ul-contato li img {
+    height: 50px;
+}
+
+.form-contato {
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    align-items: flex-end;
+    gap: 37px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.form-input {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input input {
+    width: 391px;
+    height: 100%;
+    border-radius: 22px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    box-shadow: 0px 4px 6px 0px rgba(38, 50, 56, 0.08);
+    box-shadow: 0px 2px 4px 0px rgba(38, 50, 56, 0.08);
+}
+
+.form-input label {
+    width: 120px;
+    font-size: 28px;
+}
+
+.mensagem-input{
+    display: flex;
+    flex-direction: column;
+    height: 283px;
+    gap: 12px;
+}
+
+.mensagem-input input {
+    width: 507px;
+    height: 229px;
+}
+
+.button-form-contato{
+    width: 229px;
+    height: 34px;
+    background-color: rgba(105, 117, 232, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    font-family: "Roboto-Mono", monospace;
+    cursor: pointer;
+}

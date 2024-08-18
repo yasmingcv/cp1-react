@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.header ul {
+    display: flex;
+    gap: 57px;
+}
+
+.navA {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    font-size: 28px;
+}
+
+.navA:hover {
+    text-decoration: underline;
+}
