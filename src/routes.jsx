@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Contato from "./pages/contato/contato";
+import { createBrowserRouter} from "react-router-dom";
+import Contato from "./pages/contato/Contato";
 
-const AppRoutes = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Contato />} />
-        <Route path="/contato" element={<Contato />} />
-      </Routes>
-    </Router>
-  );
-};
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Contato />
+  },
+  {
+    path: "/contato",
+    element: <Contato />
+  },
+])
 
-export default AppRoutes;
+export default router;

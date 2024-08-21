@@ -5,9 +5,9 @@ const NavBar = () => {
     <header className='header'>
       <nav>
         <ul>
-          <li><a className='navA' href="#ourServices">Home</a></li>
-          <li><a className='navA' href="#aboutUs">Sobre</a></li>
-          <li><a className='navA' href="#reviews">Contato</a></li>
+          <li><a className='navA' href="/home">Home</a></li>
+          <li><a className='navA' href="/sobre">Sobre</a></li>
+          <li><a className='navA' href="/contato">Contato</a></li>
         </ul>
       </nav>
 
