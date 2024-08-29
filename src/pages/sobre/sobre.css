@@ -4,6 +4,37 @@
 }
 
 .container-text {
+    display: flex;
     width: 600px;
     height: 400px;
+    justify-content: center;
+    margin-left: 64px;
+    margin-top: 26px;
+    gap: 32px;
+}
+
+
+.container-text h1 {
+    font-size: 3.7rem;
+    color: #333333;
+}
+
+.container-img {
+    display: flex;
+    gap: 60px;
+    margin-top: 26px;
+    align-items: center;
+    margin-right: 80px;
+}
+
+
+.img_number01 {
+    width: 216px;
+    height: 469px;
+    margin-top: 18px;
+}
+
+.img_number02 {
+    width: 226px;
+    height: 478px;
 }

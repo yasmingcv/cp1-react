@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import './button.css'
 
-const Button = () => {
+const Button = (props) => {
     return(
         <button className='btn-home'>
-            Começar agora!
+            {props.text}
         </button>
     )
 }

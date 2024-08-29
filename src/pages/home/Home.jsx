@@ -14,7 +14,7 @@ const Home = () => {
             Transforme suas ideias em filmes memoráveis: onde a criatividade
             encontra a simplicidade.
           </p>
-          <Button></Button>
+          <Button text="Começar agora!"></Button>
         </div>
         <img src={imghome} alt="Imgem" />
       </div>
