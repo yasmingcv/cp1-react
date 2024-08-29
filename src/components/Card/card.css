@@ -1,0 +1,29 @@
+.card{
+    padding: 16px 34px 34px 34px;
+    margin: 12.5px;
+    border-radius: 16px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 4rem;
+}
+
+.card-header img{
+    height: 32px;
+}
+
+.card-text{
+    color: #333333;
+}
+
+.card-text h2{
+    font-size: 2rem;
+}
+
+.card-text p{
+    font-size: 1.1rem;
+}
