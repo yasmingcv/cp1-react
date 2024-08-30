@@ -8,6 +8,7 @@ import tiktok from './tiktok.png'
 import youtube from './youtube.png'
 import img_saved from './img_saved_1.png'
 import img_video from './img_video_msg.png'
+import imageCard from './imageCard.png'
 
 export {
     discord,
@@ -20,4 +21,5 @@ export {
     youtube,
     img_saved,
     img_video,
+    imageCard,
 }
