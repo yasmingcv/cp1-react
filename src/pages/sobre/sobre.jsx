@@ -2,10 +2,12 @@ import { img_saved, img_video } from '../../assets/icons'
 import Button from '../../components/Button/Button'
 import './sobre.css'
 import Cards from '../../components/Card-planos/cards-planos.jsx'
-
+import NavBar from '../../components/navbar/navbar'
 
 const Sobre = () => {
     return (
+        <>
+        <NavBar />
         <section>
             <section id='sobre'>
                 <div className='container-text'>
@@ -31,6 +33,7 @@ const Sobre = () => {
                 </div>
             </section>
         </section>
+    </>
     )
 }
 

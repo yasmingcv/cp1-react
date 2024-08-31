@@ -3,9 +3,12 @@ import Button from "../../components/Button/Button";
 import Card from "../../components/Card/Card";
 import "./home.css";
 import { tiktok, instagram2, facebook, youtube } from "../../assets/icons";
+import NavBar from '../../components/navbar/navbar'
 
 const Home = () => {
   return (
+    <>
+    <NavBar />
     <div className="home">
       <div className="home-container">
         <div className="container-text">
@@ -32,23 +35,24 @@ const Home = () => {
           title="TikTok"
           description="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
           background="#F9EB98"
-        />
+          />
         <Card
           number="03"
           icon={facebook}
           title="Facebook"
           description="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
           background="#C0D9DD"
-        />
+          />
         <Card
           number="04"
           icon={instagram2}
           title="Instagram"
           description="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
           background="#6975E8"
-        />
+          />
       </div>
     </div>
+ </>
   );
 };
 

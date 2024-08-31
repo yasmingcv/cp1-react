@@ -1,8 +1,11 @@
 import './contato.css'
+import NavBar from '../../components/navbar/navbar'
 import {discord, instagram, twitter} from "../../assets/icons"
 
 const Contato = () => {
   return (
+    <>
+    <NavBar />
       <section id="contato">
         <article className="redes-sociais">
           <h1>Dúvidas e <br /> suporte, entre <br /> em contato:</h1>
@@ -30,6 +33,7 @@ const Contato = () => {
           <button className="button-form-contato">Enviar</button>
         </article>
       </section>
+    </>
   )
 }
 
